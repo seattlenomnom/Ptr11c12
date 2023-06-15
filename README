@@ -1,0 +1,7 @@
+/* README for Ptr11c12
+*  An example program from, Kochan, Stephen, "Programming in C 3rd ed.".
+*
+*  passing an array of ints as a pointer to an int.
+*  a strange for loop.
+*
+*/
