@@ -40,6 +40,11 @@ int array_sum(int *array, const int n){
 
     int sum = 0;
     int * const array_end = array + n;      /* n or (n - 1)? */
+                                            /* array_end is not the array  */
+                                            /* end, it is the address of   */
+                                            /* the first thing outside of */
+                                            /* array.                      */
+
 
     for( ; array < array_end; ++array)
         sum += *array;
